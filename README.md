@@ -17,6 +17,29 @@ A portfolio-ready GoHighLevel implementation that captures dental leads, opens a
 - Two-day no-response follow-up sequence
 - Personal booking calendar: `PORTFOLIO | Dental Consultation`
 - Eight-stage lead-to-patient pipeline
+- Premium two-step GHL funnel with a responsive landing page and confirmation page
+
+## Funnel experience
+
+### Dental consultation landing page
+
+[Open the GHL preview](https://sites.leadconnectorhq.com/preview/oeJ6Wx9hXhrOwmxk936R?notrack=true)
+
+- Premium responsive hero and strong booking CTA
+- Cosmetic, preventive, and restorative service cards
+- Patient trust statistics and testimonials
+- FAQ and final consultation CTA
+- All booking buttons connected to the dental consultation calendar
+
+### Appointment confirmation page
+
+[Open the GHL preview](https://sites.leadconnectorhq.com/preview/xem1UPniD87iTbeasw13?notrack=true)
+
+- Branded consultation confirmation experience
+- Three-step “What happens next?” guidance
+- Appointment-management CTA
+- Return path to the main landing page
+- Responsive desktop and mobile layout
 
 ## Pipeline stages
 
