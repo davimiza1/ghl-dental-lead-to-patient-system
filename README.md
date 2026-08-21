@@ -70,14 +70,23 @@ flowchart TD
 
 ## Portfolio screenshots
 
-Screenshots are stored in [`screenshots/`](screenshots/). The intended presentation order is:
+The complete screenshot set is stored in [`screenshots/`](screenshots/).
 
-1. Master workflow overview
-2. Workflow core and reply/timeout branches
-3. Dental lead-to-patient pipeline
-4. Consultation booking calendar
-5. Reply-branch booking SMS
-6. Timeout follow-up sequence
+### Customer-facing funnel
+
+![Dental consultation landing page](screenshots/01-dental-consultation-landing-page.png)
+
+![Appointment confirmation page](screenshots/02-appointment-confirmation-page.png)
+
+### CRM and automation backend
+
+![Master workflow overview](screenshots/03-master-workflow-overview.png)
+
+![Dental lead-to-patient pipeline](screenshots/04-dental-lead-to-patient-pipeline.png)
+
+![Dental consultation calendar](screenshots/05-dental-consultation-calendar.png)
+
+![Consultation booking widget](screenshots/06-consultation-booking-widget.png)
 
 ## Safety and deployment status
 

@@ -1,12 +1,12 @@
-# Screenshot checklist
+# Project screenshot gallery
 
-Place the final GHL screenshots here using these filenames:
+This folder documents the full customer journey and the supporting GHL configuration.
 
-- `01-master-workflow-overview.png`
-- `02-workflow-core-and-branches.png`
-- `03-dental-lead-to-patient-pipeline.png`
-- `04-consultation-booking-calendar.png`
-- `05-reply-branch-booking-sms.png`
-- `06-timeout-follow-up-sequence.png`
+1. `01-dental-consultation-landing-page.png` — responsive acquisition landing page
+2. `02-appointment-confirmation-page.png` — branded thank-you and next-steps page
+3. `03-master-workflow-overview.png` — one master workflow with reply and timeout paths
+4. `04-dental-lead-to-patient-pipeline.png` — dedicated eight-stage opportunity pipeline
+5. `05-dental-consultation-calendar.png` — active 30-minute personal calendar
+6. `06-consultation-booking-widget.png` — customer-facing date and time selector
 
-Capture without exposing real contact data, phone numbers, or account secrets.
+The captures contain no real contact records, phone numbers, patient information, or account secrets.
