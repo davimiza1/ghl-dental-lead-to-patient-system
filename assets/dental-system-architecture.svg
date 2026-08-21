@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#102c46"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#20d9c2"/><stop offset="1" stop-color="#4fa2ff"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-opacity=".28"/></filter>
+    <style>.title{font:700 54px Arial;fill:#f7fbff}.sub{font:400 22px Arial;fill:#adc6dc}.label{font:700 22px Arial;fill:#f7fbff}.small{font:400 18px Arial;fill:#bed1e2}.node{fill:#122f4b;stroke:#2f5a78;stroke-width:2}.yes{fill:#113f42;stroke:#20d9c2}.no{fill:#3c2c45;stroke:#b987ff}.line{stroke:#6e94b2;stroke-width:4;fill:none}.chip{font:700 16px Arial;fill:#071426}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="70" y="55" width="1460" height="8" rx="4" fill="url(#accent)"/>
+  <text x="80" y="145" class="title">Dental Lead-to-Patient System</text>
+  <text x="80" y="190" class="sub">One GHL master workflow • Pipeline automation • Consultation booking • Follow-up nurture</text>
+  <path class="line" d="M260 340H420M650 340H810M1040 340H1190M925 410V520M1305 410V520"/>
+  <rect class="node" filter="url(#shadow)" x="80" y="270" width="180" height="140" rx="22"/><text x="170" y="325" text-anchor="middle" class="label">New Lead</text><text x="170" y="360" text-anchor="middle" class="small">Tag added</text>
+  <rect class="node" filter="url(#shadow)" x="420" y="270" width="230" height="140" rx="22"/><text x="535" y="325" text-anchor="middle" class="label">Engage</text><text x="535" y="360" text-anchor="middle" class="small">Intro SMS + opportunity</text>
+  <rect class="node" filter="url(#shadow)" x="810" y="270" width="230" height="140" rx="22"/><text x="925" y="325" text-anchor="middle" class="label">Wait 1 Day</text><text x="925" y="360" text-anchor="middle" class="small">Did the lead reply?</text>
+  <rect x="895" y="425" width="60" height="30" rx="15" fill="#20d9c2"/><text x="925" y="446" text-anchor="middle" class="chip">YES</text>
+  <rect x="1275" y="425" width="60" height="30" rx="15" fill="#b987ff"/><text x="1305" y="446" text-anchor="middle" class="chip">NO</text>
+  <rect class="node yes" filter="url(#shadow)" x="760" y="520" width="330" height="190" rx="22"/><text x="925" y="575" text-anchor="middle" class="label">Qualified Reply</text><text x="925" y="615" text-anchor="middle" class="small">Add qualified tag</text><text x="925" y="650" text-anchor="middle" class="small">Send booking link</text><text x="925" y="685" text-anchor="middle" class="small">End</text>
+  <rect class="node no" filter="url(#shadow)" x="1140" y="520" width="330" height="230" rx="22"/><text x="1305" y="575" text-anchor="middle" class="label">No Response</text><text x="1305" y="615" text-anchor="middle" class="small">First follow-up SMS</text><text x="1305" y="650" text-anchor="middle" class="small">Wait 2 days</text><text x="1305" y="685" text-anchor="middle" class="small">Final check-in SMS</text><text x="1305" y="720" text-anchor="middle" class="small">End</text>
+  <rect x="80" y="790" width="680" height="54" rx="27" fill="#0c2238" stroke="#2f5a78"/><text x="420" y="825" text-anchor="middle" class="small">Pipeline: New Lead → Qualified → Consultation → Treatment → Nurture</text>
+</svg>
